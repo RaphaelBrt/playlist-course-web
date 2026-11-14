@@ -1,0 +1,1968 @@
+{
+  "_aide": "Profil d'intérêts de playlist-course. Modifiable : thèmes, paradoxes, concepts, mots-clés, morceaux, émissions. Musique : uniquement des morceaux cités dans les fiches « Mélomane » du second cerveau ; « spotify_id » est l'identifiant noté dans la fiche, toujours relu dans l'API (marché FR) avant usage, avec repli sur une recherche titre + artiste. Après modification, lancer « playlist-course verifier-profil ».",
+  "version": 1,
+  "marche": "FR",
+  "duree_cible_min": 60,
+  "tolerance_min": 3,
+  "langues": [
+    "fr",
+    "en"
+  ],
+  "playlist_publique": false,
+  "espacement_courses": [
+    0,
+    4,
+    8,
+    16
+  ],
+  "recherche_ouverte": true,
+  "emissions_exclues": [],
+  "structure": {
+    "echauffement_min_min": 6,
+    "parole_max_min": 42,
+    "retour_au_calme_min_min": 3,
+    "blocs_parles": [
+      {
+        "id": "actualite",
+        "libelle": "Actualité stratégique, technologique ou scientifique",
+        "duree_min_min": 3,
+        "duree_max_min": 25,
+        "fraicheur_jours": 30,
+        "fraicheur_repli_jours": 90
+      },
+      {
+        "id": "idee",
+        "libelle": "Philosophie ou science",
+        "duree_min_min": 3,
+        "duree_max_min": 25,
+        "fraicheur_jours": 0,
+        "fraicheur_repli_jours": 0
+      },
+      {
+        "id": "culture",
+        "libelle": "Littérature et culture",
+        "duree_min_min": 3,
+        "duree_max_min": 20,
+        "fraicheur_jours": 0,
+        "fraicheur_repli_jours": 0
+      }
+    ],
+    "morceau_max_min": 9
+  },
+  "emissions": [
+    {
+      "nom": "Les Enjeux internationaux",
+      "bloc": "actualite",
+      "langue": "fr",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "La Chronique du Grand Continent",
+      "bloc": "actualite",
+      "langue": "fr",
+      "_verifie": "à confirmer au premier lancement"
+    },
+    {
+      "nom": "Le Collimateur",
+      "bloc": "actualite",
+      "langue": "fr",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "The Intelligence from The Economist",
+      "bloc": "actualite",
+      "langue": "en",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "War on the Rocks",
+      "bloc": "actualite",
+      "langue": "en",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "Nature Podcast",
+      "bloc": "actualite",
+      "langue": "en",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "Hard Fork",
+      "bloc": "actualite",
+      "langue": "en",
+      "_verifie": "à confirmer au premier lancement"
+    },
+    {
+      "nom": "Avec philosophie",
+      "bloc": "idee",
+      "langue": "fr",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "La Science CQFD",
+      "bloc": "idee",
+      "langue": "fr",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "La Conversation scientifique",
+      "bloc": "idee",
+      "langue": "fr",
+      "_verifie": "à confirmer au premier lancement"
+    },
+    {
+      "nom": "Philosophize This!",
+      "bloc": "idee",
+      "langue": "en",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "In Our Time: Philosophy",
+      "bloc": "idee",
+      "langue": "en",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "Song Exploder",
+      "bloc": "culture",
+      "langue": "en",
+      "_verifie": "page Spotify publique lue le 2026-11-14"
+    },
+    {
+      "nom": "La Compagnie des œuvres",
+      "bloc": "culture",
+      "langue": "fr",
+      "_verifie": "à confirmer au premier lancement"
+    },
+    {
+      "nom": "In Our Time: Culture",
+      "bloc": "culture",
+      "langue": "en",
+      "_verifie": "à confirmer au premier lancement"
+    }
+  ],
+  "musique_generale": [
+    {
+      "artiste": "4 Non Blondes",
+      "titre": "What's Up?",
+      "annee": 1993,
+      "spotify_id": "7f0jXNMu2xjQUtmKMuWhGA"
+    },
+    {
+      "artiste": "ABBA",
+      "titre": "Fernando",
+      "annee": 1976,
+      "spotify_id": "0rYqEm1ojfSnRbRKt3b4Nz"
+    },
+    {
+      "artiste": "ABBA",
+      "titre": "I Have a Dream",
+      "annee": 1979,
+      "spotify_id": "1PtJclc46wTk367PlsU6Uj"
+    },
+    {
+      "artiste": "ABBA",
+      "titre": "Knowing Me, Knowing You",
+      "annee": 1977,
+      "spotify_id": "798cuJeotvXP8UVa8GJPnD"
+    },
+    {
+      "artiste": "ABBA",
+      "titre": "Voulez-Vous",
+      "annee": 1979,
+      "spotify_id": "6jJYlWqSUHXoX15nGk3Yfe"
+    },
+    {
+      "artiste": "AC/DC",
+      "titre": "Back in Black",
+      "annee": 1980,
+      "spotify_id": "08mG3Y1vljYA6bvDt4Wqkj"
+    },
+    {
+      "artiste": "Amy Macdonald",
+      "titre": "Dancing in the Dark",
+      "annee": 2009,
+      "spotify_id": "15k8B2ZYYjrGU34RT0Uj7s"
+    },
+    {
+      "artiste": "Amy Winehouse",
+      "titre": "Rehab",
+      "annee": 2006,
+      "spotify_id": "3N4DI1vuTSX1tz7fa2NQZw"
+    },
+    {
+      "artiste": "Andrew Lloyd Webber",
+      "titre": "The Phantom of the Opera",
+      "annee": 1986,
+      "spotify_id": "5qlABWwod6dgDCmRAAF5J5"
+    },
+    {
+      "artiste": "The Animals",
+      "titre": "The House of the Rising Sun",
+      "annee": 1964,
+      "spotify_id": "3TETmhGNWOcquUTtcr6RIR"
+    },
+    {
+      "artiste": "Anonyme",
+      "titre": "Romance Anónimo",
+      "spotify_id": "2rxt0zxMiwqSOuKIL97x5D"
+    },
+    {
+      "artiste": "Anúna",
+      "titre": "Ceann Dubh Dílis",
+      "annee": 1997,
+      "spotify_id": "3pnoxVMy2LMPCA1UuFu8zd"
+    },
+    {
+      "artiste": "Barbara",
+      "titre": "Une petite cantate",
+      "annee": 1965,
+      "spotify_id": "66I9UgzOtCOKmcWjIakfqV"
+    },
+    {
+      "artiste": "Bascom Lamar Lunsford",
+      "titre": "Doggett Gap",
+      "annee": 1928,
+      "spotify_id": "0VDKlVYptVSGrgQ9y44Na3"
+    },
+    {
+      "artiste": "The Beatles",
+      "titre": "For No One",
+      "annee": 1966,
+      "spotify_id": "1kDkaFlmkdEZiVUogaP9OZ"
+    },
+    {
+      "artiste": "The Beatles",
+      "titre": "Help!",
+      "annee": 1965,
+      "spotify_id": "6EdSN1iGtLPhcz43QDRkdK"
+    },
+    {
+      "artiste": "The Beatles",
+      "titre": "Rock and Roll Music",
+      "annee": 1964,
+      "spotify_id": "7Ho3T7ERfooiAfvODaMQ2N"
+    },
+    {
+      "artiste": "The Beatles",
+      "titre": "Yesterday",
+      "annee": 1965,
+      "spotify_id": "3BQHpFgAp4l80e1XslIjNI"
+    },
+    {
+      "artiste": "Ludwig van Beethoven",
+      "titre": "Symphonie n° 9, II. Molto vivace",
+      "annee": 1824,
+      "spotify_id": "48A5jOhCYEy5CDBQSPPwFV"
+    },
+    {
+      "artiste": "Ben E. King",
+      "titre": "Stand by Me",
+      "annee": 1961,
+      "spotify_id": "7jmHyHMEqm9MJWiMAneF05"
+    },
+    {
+      "artiste": "Bernard Lavilliers et Nicoletta",
+      "titre": "Idées noires",
+      "annee": 1983,
+      "spotify_id": "2mkY4t0pfwTzsliLW7u1Ih"
+    },
+    {
+      "artiste": "The Blues Brothers",
+      "titre": "Theme from Rawhide",
+      "annee": 1980,
+      "spotify_id": "4P60VVMdkWcwGMBC7r4Kgp"
+    },
+    {
+      "artiste": "Boney M.",
+      "titre": "Sunny",
+      "annee": 1976,
+      "spotify_id": "3pf96IFggfQuT6Gafqx2rt"
+    },
+    {
+      "artiste": "Bonnie Tyler",
+      "titre": "Total Eclipse of the Heart",
+      "annee": 1983,
+      "spotify_id": "1VrfLrBviw9A6JzRoo3t2C"
+    },
+    {
+      "artiste": "Boys Town Gang",
+      "titre": "Can't Take My Eyes Off You",
+      "annee": 1982,
+      "spotify_id": "5bjvphRUNqIp43shEUM7Og"
+    },
+    {
+      "artiste": "Johannes Brahms",
+      "titre": "Danse hongroise n° 5",
+      "annee": 1869,
+      "spotify_id": "1PKtuxuLUbXeJNa05bfAOT"
+    },
+    {
+      "artiste": "Bryan Adams",
+      "titre": "(Everything I Do) I Do It for You",
+      "annee": 1991,
+      "spotify_id": "76qB2ZEZlEJAMqMqUjKusp"
+    },
+    {
+      "artiste": "Chavela Vargas",
+      "titre": "La Llorona",
+      "annee": 1961,
+      "spotify_id": "45rQqSqb95p5lkZy13Tl1u"
+    },
+    {
+      "artiste": "Cher",
+      "titre": "The Shoop Shoop Song (It's in His Kiss)",
+      "annee": 1990,
+      "spotify_id": "472zDwHK1A4kAcsIq0M2L3"
+    },
+    {
+      "artiste": "Chicago",
+      "titre": "Hard to Say I'm Sorry",
+      "annee": 1982,
+      "spotify_id": "5nDSJO4909uNzMcZH3CggS"
+    },
+    {
+      "artiste": "Chicago",
+      "titre": "If You Leave Me Now",
+      "annee": 1976,
+      "spotify_id": "0KMGxYKeUzK9wc5DZCt3HT"
+    },
+    {
+      "artiste": "Crowded House",
+      "titre": "Don't Dream It's Over",
+      "annee": 1986,
+      "spotify_id": "7G7tgVYORlDuVprcYHuFJh"
+    },
+    {
+      "artiste": "Davey Graham",
+      "titre": "Angi",
+      "annee": 1962,
+      "spotify_id": "2NMqXqVFHQrJ8aBlPylxDH"
+    },
+    {
+      "artiste": "David Bowie",
+      "titre": "Modern Love",
+      "annee": 1983,
+      "spotify_id": "3okBUZFjU0WNNraSASYb7s"
+    },
+    {
+      "artiste": "Demis Roussos",
+      "titre": "Come Waltz With Me",
+      "annee": 1995,
+      "spotify_id": "11WTvh1lfXhPqM037AnwDv"
+    },
+    {
+      "artiste": "Desireless",
+      "titre": "Voyage, voyage",
+      "annee": 1986,
+      "spotify_id": "2d8D7uk3tbAThjRkdfrx9c"
+    },
+    {
+      "artiste": "The Doobie Brothers",
+      "titre": "Listen to the Music",
+      "annee": 1972,
+      "spotify_id": "7Ar4G7Ci11gpt6sfH9Cgz5"
+    },
+    {
+      "artiste": "Duran Duran",
+      "titre": "Ordinary World",
+      "annee": 1992,
+      "spotify_id": "0wokCRaKD0zPNhMRXAgVsr"
+    },
+    {
+      "artiste": "Electric Light Orchestra",
+      "titre": "Last Train to London",
+      "annee": 1979,
+      "spotify_id": "6xE6ZWzK1YDDSYzqOCoQlz"
+    },
+    {
+      "artiste": "Eagles",
+      "titre": "Hotel California",
+      "annee": 1977,
+      "spotify_id": "40riOy7x9W7GXjyGp4pjAv"
+    },
+    {
+      "artiste": "Eddy Mitchell",
+      "titre": "Sur la route de Memphis",
+      "annee": 1976,
+      "spotify_id": "6NQ1iVoOqcYKDdsrkLi1PK"
+    },
+    {
+      "artiste": "Elton John",
+      "titre": "Your Song",
+      "annee": 1970,
+      "spotify_id": "38zsOOcu31XbbYj9BIPUF1"
+    },
+    {
+      "artiste": "Elvis Presley",
+      "titre": "Can't Help Falling in Love",
+      "annee": 1961,
+      "spotify_id": "44AyOl4qVkzS48vBsbNXaC"
+    },
+    {
+      "artiste": "Eminem",
+      "titre": "Lose Yourself",
+      "annee": 2002,
+      "spotify_id": "7GktVYZ58qe9j6kuroBL8G"
+    },
+    {
+      "artiste": "Ennio Morricone",
+      "titre": "For a Few Dollars More (Main Theme)",
+      "annee": 1965,
+      "spotify_id": "1td76Ixg5DjZPdUuLZHoyx"
+    },
+    {
+      "artiste": "Eros Ramazzotti",
+      "titre": "Cose della vita",
+      "annee": 1993,
+      "spotify_id": "2bJtJv5NGkYUFP6prU3WSg"
+    },
+    {
+      "artiste": "Fool's Garden",
+      "titre": "Lemon Tree",
+      "annee": 1995,
+      "spotify_id": "2epbL7s3RFV81K5UhTgZje"
+    },
+    {
+      "artiste": "Frank Sinatra",
+      "titre": "My Way",
+      "annee": 1969,
+      "spotify_id": "6lTTzSk1hRrxp4VMwXBp2l"
+    },
+    {
+      "artiste": "Fred Astaire et Cyd Charisse",
+      "titre": "Dancing in the Dark",
+      "annee": 1953,
+      "spotify_id": "0j6nn2EKzEHgqejlop1ldE"
+    },
+    {
+      "artiste": "Gene & Wendell with the Sweethearts",
+      "titre": "The Roach",
+      "annee": 1961,
+      "spotify_id": "1qvRfd0mdls3b2W92R0dc1"
+    },
+    {
+      "artiste": "Genesis",
+      "titre": "I Can't Dance",
+      "annee": 1991,
+      "spotify_id": "0No5Hr1LxZjJHGsQSTy2bm"
+    },
+    {
+      "artiste": "Genesis",
+      "titre": "Invisible Touch",
+      "annee": 1986,
+      "spotify_id": "0xpBr84T3FTm9j4D1MdPtk"
+    },
+    {
+      "artiste": "Georges Brassens",
+      "titre": "L'Orage",
+      "annee": 1960,
+      "spotify_id": "1FFnsoqQ8S0PoFPGVyGUcO"
+    },
+    {
+      "artiste": "Georges Moustaki",
+      "titre": "Sans la nommer",
+      "annee": 1969,
+      "spotify_id": "5bsVxJK4zs31QLIkQcexwo"
+    },
+    {
+      "artiste": "Gerry Rafferty",
+      "titre": "Baker Street",
+      "annee": 1978,
+      "spotify_id": "7CJabvkG3i7cLY32tm9cVC"
+    },
+    {
+      "artiste": "Gilbert Bécaud",
+      "titre": "Et maintenant",
+      "annee": 1961,
+      "spotify_id": "4ucLRJHtaELsbkSnV2Bgf3"
+    },
+    {
+      "artiste": "Le Grand Orchestre du Splendid",
+      "titre": "La Salsa du démon",
+      "annee": 1980,
+      "spotify_id": "1HEzZAovKS10XIeMsqAZJn"
+    },
+    {
+      "artiste": "Daryl Hall & John Oates",
+      "titre": "Maneater",
+      "annee": 1982,
+      "spotify_id": "7j74lucZ59vqN67Ipe2ZcY"
+    },
+    {
+      "artiste": "Hervé Vilard",
+      "titre": "Reviens",
+      "annee": 1980,
+      "spotify_id": "51pD6qaAKwnbJkMkzmtFmU"
+    },
+    {
+      "artiste": "Iron Maiden",
+      "titre": "Phantom of the Opera",
+      "annee": 1980,
+      "spotify_id": "14H2fE4WEdkEem0kjVeODT"
+    },
+    {
+      "artiste": "Isaac Hayes",
+      "titre": "Theme from Shaft",
+      "annee": 1971,
+      "spotify_id": "7nPc4tfJCRvcxxt9Xz3ugx"
+    },
+    {
+      "artiste": "Jacques Dutronc",
+      "titre": "Il est cinq heures, Paris s'éveille",
+      "annee": 1968,
+      "spotify_id": "1Gw2viJ4XE9hylW4ujtNef"
+    },
+    {
+      "artiste": "James Brown",
+      "titre": "It's a Man's Man's Man's World",
+      "annee": 1966,
+      "spotify_id": "3BcH252CGECgOWfKBjAaBC"
+    },
+    {
+      "artiste": "Jethro Tull",
+      "titre": "Living in the Past",
+      "annee": 1969,
+      "spotify_id": "4gT03ljMtJBaVBTmVUbbat"
+    },
+    {
+      "artiste": "The Jimi Hendrix Experience",
+      "titre": "Hey Joe",
+      "annee": 1966,
+      "spotify_id": "0NWPxcsf5vdjdiFUI8NgkP"
+    },
+    {
+      "artiste": "John Lennon",
+      "titre": "Slippin' and Slidin'",
+      "annee": 1975,
+      "spotify_id": "7EJkPIp0sn7ora93wqbUMP"
+    },
+    {
+      "artiste": "Johnny Hallyday",
+      "titre": "Que je t'aime",
+      "annee": 1969,
+      "spotify_id": "0v08PAQre7a9IrVp5Gal8N"
+    },
+    {
+      "artiste": "Kate Bush",
+      "titre": "The Red Shoes",
+      "annee": 1993,
+      "spotify_id": "36A43HTNUMvM3fa8q7J0sL"
+    },
+    {
+      "artiste": "Led Zeppelin",
+      "titre": "Black Dog",
+      "annee": 1971,
+      "spotify_id": "3qT4bUD1MaWpGrTwcvguhb"
+    },
+    {
+      "artiste": "Leonard Cohen",
+      "titre": "Hallelujah",
+      "annee": 1984,
+      "spotify_id": "7yzbimr8WVyAtBX3Eg6UL9"
+    },
+    {
+      "artiste": "Level 42",
+      "titre": "Something About You",
+      "annee": 1985,
+      "spotify_id": "77NwdlKUIMS3gvvJeO5KK1"
+    },
+    {
+      "artiste": "Lionel Richie",
+      "titre": "Hello",
+      "annee": 1984,
+      "spotify_id": "0mHyWYXmmCB9iQyK18m3FQ"
+    },
+    {
+      "artiste": "Los Bravos",
+      "titre": "Black Is Black",
+      "annee": 1966,
+      "spotify_id": "6lazLV13sV8VNGJTjL4Zeu"
+    },
+    {
+      "artiste": "Marie-Paule Belle",
+      "titre": "La Parisienne",
+      "annee": 1976,
+      "spotify_id": "1Eg6Q5KlzU6ZHqyM9USX3Q"
+    },
+    {
+      "artiste": "Marty Robbins",
+      "titre": "El Paso",
+      "annee": 1959,
+      "spotify_id": "5ESnx7UWLIGmu4sUfR5hGi"
+    },
+    {
+      "artiste": "Michael Jackson et Paul McCartney",
+      "titre": "The Girl Is Mine",
+      "annee": 1982,
+      "spotify_id": "7eZF2akhiLWEA3wmA2VuFS"
+    },
+    {
+      "artiste": "Michel Sardou",
+      "titre": "Musica",
+      "annee": 1981,
+      "spotify_id": "1fx58Uei3varWmZ5dvclmm"
+    },
+    {
+      "artiste": "Wolfgang Amadeus Mozart",
+      "titre": "Ave verum corpus, K. 618",
+      "annee": 1791,
+      "spotify_id": "5lMALEjPNRGPebcjBHFQvN"
+    },
+    {
+      "artiste": "Wolfgang Amadeus Mozart",
+      "titre": "Concerto pour piano n° 21, K. 467, Andante",
+      "annee": 1785,
+      "spotify_id": "5zdWpbiy9i0wWTcUzMj9QC"
+    },
+    {
+      "artiste": "Wolfgang Amadeus Mozart",
+      "titre": "Der Hölle Rache kocht in meinem Herzen",
+      "annee": 1791,
+      "spotify_id": "0ePyoUT04CHyKrVmxJ6ZiV"
+    },
+    {
+      "artiste": "Wolfgang Amadeus Mozart",
+      "titre": "Laudate Dominum (Vesperae solennes de confessore, K. 339)",
+      "annee": 1780,
+      "spotify_id": "0GSIVqcaoKXPMtSwX7BLlU"
+    },
+    {
+      "artiste": "Wolfgang Amadeus Mozart",
+      "titre": "Symphonie n° 40 en sol mineur, K. 550",
+      "annee": 1788,
+      "spotify_id": "5yH2oVj61PAyAcFvq9O62v"
+    },
+    {
+      "artiste": "Nat King Cole",
+      "titre": "When I Fall in Love",
+      "annee": 1956,
+      "spotify_id": "6s6h2XK7Nl8lEcTzr7ezeB"
+    },
+    {
+      "artiste": "Nazareth",
+      "titre": "Love Hurts",
+      "annee": 1975,
+      "spotify_id": "1i5oEx2vFczQ2sCY3c6Kn5"
+    },
+    {
+      "artiste": "New Order",
+      "titre": "Bizarre Love Triangle",
+      "annee": 1986,
+      "spotify_id": "6wVViUl2xSRoDK2T7dMZbR"
+    },
+    {
+      "artiste": "Nino Rota",
+      "titre": "Speak Softly, Love (Love Theme from The Godfather)",
+      "annee": 1972,
+      "spotify_id": "0OJ0eNR9c53PkfXuwX3DJ0"
+    },
+    {
+      "artiste": "Jacques Offenbach",
+      "titre": "Les oiseaux dans la charmille",
+      "annee": 1881,
+      "spotify_id": "1EXUQYqwLtDvKhJK6izs9q"
+    },
+    {
+      "artiste": "Paolo Conte",
+      "titre": "Via con me",
+      "annee": 1981,
+      "spotify_id": "5WHWPRAkR2WYH1CjKV9Omh"
+    },
+    {
+      "artiste": "Patrick Swayze",
+      "titre": "She's Like the Wind",
+      "annee": 1987,
+      "spotify_id": "3d4I2tQUz16S8gesU2pLSM"
+    },
+    {
+      "artiste": "Pet Shop Boys",
+      "titre": "It's a Sin",
+      "annee": 1987,
+      "spotify_id": "1uO9ddZxqmSnHWwUVVSLom"
+    },
+    {
+      "artiste": "Les Petits Chanteurs à la Croix de Bois",
+      "titre": "Regardez l'humilité de Dieu",
+      "annee": 2022,
+      "spotify_id": "64FXmgk9iWhbKh606gm7So"
+    },
+    {
+      "artiste": "Piero Umiliani",
+      "titre": "Mah Nà Mah Nà",
+      "annee": 1968,
+      "spotify_id": "3Mz27X48Ey7MbfLOmSzkBK"
+    },
+    {
+      "artiste": "Pierre Bachelet",
+      "titre": "Elle est d'ailleurs",
+      "annee": 1980,
+      "spotify_id": "1cmuoWb5txCMqd3CmRMfvU"
+    },
+    {
+      "artiste": "Pierre Groscolas",
+      "titre": "Fille du vent",
+      "annee": 1971,
+      "spotify_id": "0p9bofdYTrSDhl6A0dsB8c"
+    },
+    {
+      "artiste": "Pierre Groscolas",
+      "titre": "Lady Lay",
+      "annee": 1973,
+      "spotify_id": "4EyctlAY28oRhkBy4QTlaA"
+    },
+    {
+      "artiste": "Riccardo Cocciante",
+      "titre": "Les cloches",
+      "annee": 1998,
+      "spotify_id": "4q2X8Uxtk7lbeaRnIP9DZr"
+    },
+    {
+      "artiste": "Robert Palmer",
+      "titre": "Addicted to Love",
+      "annee": 1986,
+      "spotify_id": "5RKO2DLADKAgXfwxxKWIF6"
+    },
+    {
+      "artiste": "Roger Miller",
+      "titre": "King of the Road",
+      "annee": 1965,
+      "spotify_id": "3XG7bMVcMWLIn2k9jLAaAt"
+    },
+    {
+      "artiste": "Sade",
+      "titre": "Smooth Operator",
+      "annee": 1984,
+      "spotify_id": "7pLuEMFougkSHXrPBtNxTR"
+    },
+    {
+      "artiste": "Sam & Dave",
+      "titre": "Soul Man",
+      "annee": 1967,
+      "spotify_id": "4eGHlplaq1ME8oetnTuFFf"
+    },
+    {
+      "artiste": "Santana feat. Rob Thomas",
+      "titre": "Smooth",
+      "annee": 1999,
+      "spotify_id": "0n2SEXB2qoRQg171q7XqeW"
+    },
+    {
+      "artiste": "Franz Schubert",
+      "titre": "Ständchen, D. 957 no 4",
+      "annee": 1828,
+      "spotify_id": "00k8twQwuSTsjPsJzxf6zP"
+    },
+    {
+      "artiste": "Snowy White",
+      "titre": "Bird of Paradise",
+      "annee": 1983,
+      "spotify_id": "1pcb3ABzBuJSYwYlqzRH8V"
+    },
+    {
+      "artiste": "Spagna",
+      "titre": "Call Me",
+      "annee": 1987,
+      "spotify_id": "4eHaumBI5m3490Z9BBpo1r"
+    },
+    {
+      "artiste": "Supertramp",
+      "titre": "Don't Leave Me Now",
+      "annee": 1982,
+      "spotify_id": "0OtgQMnnZL5KVjpABf6SdR"
+    },
+    {
+      "artiste": "Survivor",
+      "titre": "Eye of the Tiger",
+      "annee": 1982,
+      "spotify_id": "2HHtWyy5CgaQbC7XSoOb0e"
+    },
+    {
+      "artiste": "Terence Trent D'Arby",
+      "titre": "Wishing Well",
+      "annee": 1987,
+      "spotify_id": "2bvzxeD1hPWEYotw40Euq9"
+    },
+    {
+      "artiste": "The Cars",
+      "titre": "Drive",
+      "annee": 1984,
+      "spotify_id": "4IXT27qhLZSnF2la3FQ1y8"
+    },
+    {
+      "artiste": "Tina Charles",
+      "titre": "I Love to Love (But My Baby Loves to Dance)",
+      "annee": 1976,
+      "spotify_id": "5jWI1xNxABzDRFTnD2yp8L"
+    },
+    {
+      "artiste": "Toto",
+      "titre": "Africa",
+      "annee": 1982,
+      "spotify_id": "2374M0fQpWi3dLnB54qaLX"
+    },
+    {
+      "artiste": "Traditionnel",
+      "titre": "Dies irae",
+      "spotify_id": "6uXB6wi0HxQ5MlRtOqqSS0"
+    },
+    {
+      "artiste": "Traveling Wilburys",
+      "titre": "End of the Line",
+      "annee": 1988,
+      "spotify_id": "4HA2jo7wkMdN1lmLO6ryzE"
+    },
+    {
+      "artiste": "Trust",
+      "titre": "Antisocial",
+      "annee": 1980,
+      "spotify_id": "5UWKKImzJ3kW8BGZXvAwOL"
+    },
+    {
+      "artiste": "The Turtles",
+      "titre": "Happy Together",
+      "annee": 1967,
+      "spotify_id": "1JO1xLtVc8mWhIoE3YaCL0"
+    },
+    {
+      "artiste": "The Velvet Underground",
+      "titre": "Sweet Jane",
+      "annee": 1970,
+      "spotify_id": "3cw3Z7mS55gd3NUjh4k0bL"
+    },
+    {
+      "artiste": "Giuseppe Verdi",
+      "titre": "Libiamo ne' lieti calici",
+      "annee": 1853,
+      "spotify_id": "66tgHM9JtuLIkNxweIO1Tl"
+    },
+    {
+      "artiste": "Whitney Houston",
+      "titre": "I Will Always Love You",
+      "annee": 1992,
+      "spotify_id": "4eHbdreAnSOrDDsFfc4Fpm"
+    },
+    {
+      "artiste": "William Sheller",
+      "titre": "Le Carnet à spirale",
+      "annee": 1976,
+      "spotify_id": "2paQelcCyyNIY2Z7ugdb4I"
+    }
+  ],
+  "themes": [
+    {
+      "id": "dissuasion",
+      "titre": "Dissuasion",
+      "famille": "strategie",
+      "paradoxe": "Pour ne jamais employer l'arme, il faut rendre son emploi crédible.",
+      "concepts": [
+        {
+          "nom": "Crédibilité",
+          "definition": "Une menace ne dissuade que si l'adversaire croit à sa mise à exécution."
+        },
+        {
+          "nom": "Paradoxe stabilité-instabilité",
+          "definition": "Un équilibre nucléaire stable peut encourager des conflits de moindre intensité (Glenn Snyder, 1965)."
+        },
+        {
+          "nom": "Escalade",
+          "definition": "Montée par paliers que chaque camp croit pouvoir maîtriser."
+        },
+        {
+          "nom": "Seuil",
+          "definition": "Limite dont le franchissement change la nature du conflit ; son flou fait partie de la dissuasion."
+        }
+      ],
+      "questions": [
+        "Qu'est-ce qui rend une menace crédible sans qu'on ait à la mettre à exécution ?",
+        "Une dissuasion parfaitement stable rend-elle la guerre conventionnelle plus probable ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "dissuasion",
+          "nucléaire",
+          "deterrence"
+        ],
+        "idee": [
+          "dissuasion nucléaire",
+          "Raymond Aron"
+        ],
+        "culture": [
+          "Docteur Folamour",
+          "guerre froide"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Europe",
+          "titre": "The Final Countdown",
+          "annee": 1986,
+          "spotify_id": "1li0jGGRIaMaNNRBV8JXZ4",
+          "pourquoi": "Écrit pour ouvrir les concerts du groupe : un compte à rebours."
+        },
+        {
+          "artiste": "Phil Collins",
+          "titre": "In the Air Tonight",
+          "annee": 1981,
+          "spotify_id": "7Dbg5O9nNWu6SWxDjJ9qoq",
+          "pourquoi": "Une batterie retenue plus de trois minutes : l'attente fait l'effet."
+        },
+        {
+          "artiste": "Survivor",
+          "titre": "Burning Heart",
+          "annee": 1985,
+          "spotify_id": "2avaSeKHI5l4sLruVfLdi2",
+          "pourquoi": "Thème de Rocky IV : l'Est et l'Ouest occupent le refrain."
+        },
+        {
+          "artiste": "Elton John",
+          "titre": "Nikita",
+          "annee": 1985,
+          "spotify_id": "3G0ENKW9vzV0SuYKaWFflI",
+          "pourquoi": "Un amour impossible avec un garde-frontière est-allemand."
+        }
+      ],
+      "echos": [
+        "dilemme_securite",
+        "montee_extremes",
+        "espace"
+      ]
+    },
+    {
+      "id": "dilemme_securite",
+      "titre": "Dilemme de sécurité",
+      "famille": "strategie",
+      "paradoxe": "En s'armant pour se protéger, un État peut rendre sa situation plus dangereuse.",
+      "concepts": [
+        {
+          "nom": "Dilemme de sécurité",
+          "definition": "Ce qui renforce la sécurité de l'un inquiète l'autre, qui s'arme à son tour (John Herz, 1950 ; Robert Jervis, 1978)."
+        },
+        {
+          "nom": "Piège de Thucydide",
+          "definition": "Risque de guerre quand une puissance montante rattrape une puissance établie (Graham Allison, 2017)."
+        },
+        {
+          "nom": "Défense non provocatrice",
+          "definition": "Posture qui protège sans menacer, au cœur de la sécurité commune (commission Palme, 1982)."
+        }
+      ],
+      "questions": [
+        "À quoi un adversaire distingue-t-il une arme défensive d'une arme offensive ?",
+        "Peut-on se rassurer soi-même sans inquiéter l'autre ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "réarmement",
+          "Chine",
+          "Taïwan"
+        ],
+        "idee": [
+          "dilemme de sécurité",
+          "Thucydide"
+        ],
+        "culture": [
+          "Thucydide",
+          "La Guerre du Péloponnèse"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "David Bowie",
+          "titre": "Heroes",
+          "annee": 1977,
+          "spotify_id": "5TdXeWOn7NysrbimErhM2i",
+          "pourquoi": "Né à Berlin-Ouest, d'un baiser vu près du Mur."
+        },
+        {
+          "artiste": "Étienne Nicolas Méhul",
+          "titre": "Le Chant du départ",
+          "annee": 1794,
+          "spotify_id": "4hOCSUieHzgdar3kHiUxAS",
+          "pourquoi": "Chant de 1794, « frère de La Marseillaise », repris jusqu'aux guerres mondiales."
+        },
+        {
+          "artiste": "Talk Talk",
+          "titre": "It's My Life",
+          "annee": 1984,
+          "spotify_id": "4jhsuQCUCJKA5f0bXb6XdJ",
+          "pourquoi": "Un clip où le chanteur refuse le playback, bouche scotchée."
+        },
+        {
+          "artiste": "Simple Minds",
+          "titre": "Don't You (Forget About Me)",
+          "annee": 1985,
+          "spotify_id": "3fH4KjXFYMmljxrcGrbPj9",
+          "pourquoi": "Refusée par le groupe, elle devient son plus grand succès."
+        }
+      ],
+      "echos": [
+        "dissuasion",
+        "territoire",
+        "montee_extremes"
+      ]
+    },
+    {
+      "id": "friction",
+      "titre": "Friction et brouillard",
+      "famille": "strategie",
+      "paradoxe": "Plus le plan est précis, plus il est fragile au contact du réel.",
+      "concepts": [
+        {
+          "nom": "Friction",
+          "definition": "Ce qui distingue la guerre réelle de la guerre sur le papier (Clausewitz, De la guerre)."
+        },
+        {
+          "nom": "Trinité",
+          "definition": "Passion, hasard et raison, portés par le peuple, l'armée et le gouvernement (Clausewitz)."
+        },
+        {
+          "nom": "Boucle OODA",
+          "definition": "Observer, s'orienter, décider, agir : l'emporter en tournant plus vite que l'adversaire (John Boyd)."
+        }
+      ],
+      "questions": [
+        "Quelle part de ton plan de course survit au premier kilomètre ?",
+        "Vaut-il mieux décider vite ou décider juste ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "Ukraine front",
+          "armée",
+          "drones"
+        ],
+        "idee": [
+          "Clausewitz",
+          "brouillard de la guerre"
+        ],
+        "culture": [
+          "Guerre et Paix",
+          "Tolstoï"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "AC/DC",
+          "titre": "Thunderstruck",
+          "annee": 1990,
+          "spotify_id": "57bgtoPSgt236HzfBOd8kj",
+          "pourquoi": "Un motif court et répétable l'emporte sur une construction savante."
+        },
+        {
+          "artiste": "Dire Straits",
+          "titre": "Sultans of Swing",
+          "annee": 1978,
+          "spotify_id": "3LTMnFa0hhwisyq6ILahyj",
+          "pourquoi": "Une maquette diffusée par un animateur de la BBC lance le groupe."
+        },
+        {
+          "artiste": "R.E.M.",
+          "titre": "Losing My Religion",
+          "annee": 1991,
+          "spotify_id": "31AOj9sFz2gM0O3hMARRBx",
+          "pourquoi": "Un riff de mandoline improvisé en apprenant l'instrument."
+        },
+        {
+          "artiste": "Prince and the Revolution",
+          "titre": "Purple Rain",
+          "annee": 1984,
+          "spotify_id": "1uvyZBs4IZYRebHIB1747m",
+          "pourquoi": "Une prise de concert gardée, raccourcie de onze à huit minutes."
+        }
+      ],
+      "echos": [
+        "systeme_ennemi",
+        "montee_extremes",
+        "mesure_cible"
+      ]
+    },
+    {
+      "id": "systeme_ennemi",
+      "titre": "L'ennemi comme système",
+      "famille": "strategie",
+      "paradoxe": "La précision promet de paralyser l'adversaire en frappant peu ; l'adversaire apprend et se reconfigure.",
+      "concepts": [
+        {
+          "nom": "Cinq cercles",
+          "definition": "Direction, fonctions vitales, infrastructures, population, forces : l'ennemi vu comme un système (John Warden, 1995)."
+        },
+        {
+          "nom": "Diplomatie coercitive",
+          "definition": "Obtenir un changement de comportement par la menace ou l'usage limité de la force."
+        },
+        {
+          "nom": "Adaptation",
+          "definition": "L'adversaire apprend, contourne et répare : la paralysie n'est jamais acquise."
+        }
+      ],
+      "questions": [
+        "Quel est le centre de gravité d'un adversaire qui n'a pas de centre ?",
+        "Frapper pour ne pas avoir à combattre : quand cela a-t-il marché ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "frappes",
+          "défense aérienne",
+          "air power"
+        ],
+        "idee": [
+          "puissance aérienne",
+          "centre de gravité"
+        ],
+        "culture": [
+          "Saint-Exupéry",
+          "Vol de nuit"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Richard Wagner",
+          "titre": "Chevauchée des Walkyries",
+          "annee": 1870,
+          "spotify_id": "1X4KBfYWn2zk6uvouphLyi",
+          "pourquoi": "Prélude d'opéra devenu, dans Apocalypse Now, la musique des hélicoptères."
+        },
+        {
+          "artiste": "The Who",
+          "titre": "Baba O'Riley",
+          "annee": 1971,
+          "spotify_id": "3qiyyUfYe7CRYLucrPmulD",
+          "pourquoi": "Sauvée de Lifehouse, opéra rock abandonné."
+        },
+        {
+          "artiste": "The Temptations",
+          "titre": "Papa Was a Rollin' Stone",
+          "annee": 1972,
+          "spotify_id": "6N3qWKVTqM7BvpBp9JVd7i",
+          "pourquoi": "Le producteur fait du groupe vocal le soliste d'un orchestre."
+        },
+        {
+          "artiste": "Mike Oldfield",
+          "titre": "Tubular Bells",
+          "annee": 1973,
+          "spotify_id": "7ERSQrRptZVM7q3VOdM7OL",
+          "pourquoi": "Refusé par les grandes maisons, il lance Virgin en 1973."
+        }
+      ],
+      "echos": [
+        "friction",
+        "dual_use",
+        "dissuasion"
+      ]
+    },
+    {
+      "id": "montee_extremes",
+      "titre": "Mimétisme et montée aux extrêmes",
+      "famille": "philosophie",
+      "paradoxe": "Chacun croit seulement répondre à l'autre ; c'est ainsi que la violence s'emballe.",
+      "concepts": [
+        {
+          "nom": "Désir mimétique",
+          "definition": "Nous désirons ce que l'autre désire ; le modèle devient rival (René Girard)."
+        },
+        {
+          "nom": "Montée aux extrêmes",
+          "definition": "La logique d'action réciproque pousse la guerre vers sa forme absolue (Clausewitz, relu par Girard dans Achever Clausewitz, 2007)."
+        },
+        {
+          "nom": "Bouc émissaire",
+          "definition": "La crise mimétique se résout sur une victime commune."
+        }
+      ],
+      "questions": [
+        "Dans un conflit actuel, qui imite qui ?",
+        "Comment arrêter une réciprocité sans perdre la face ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "escalade",
+          "représailles",
+          "escalation"
+        ],
+        "idee": [
+          "René Girard",
+          "désir mimétique"
+        ],
+        "culture": [
+          "Girard",
+          "tragédie grecque"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Gazebo",
+          "titre": "I Like Chopin",
+          "annee": 1983,
+          "spotify_id": "2FHnN5ELL83TGbtXMDzoiJ",
+          "pourquoi": "Aucun thème de Chopin : le nom suffit à faire entendre le modèle."
+        },
+        {
+          "artiste": "Boney M.",
+          "titre": "Daddy Cool",
+          "annee": 1976,
+          "spotify_id": "3pQvujPtKsxZnxQaV0Hoya",
+          "pourquoi": "La voix masculine est celle du producteur, Frank Farian."
+        },
+        {
+          "artiste": "The Cranberries",
+          "titre": "Zombie",
+          "annee": 1994,
+          "spotify_id": "2IZZqH4K02UIYg5EohpNHF",
+          "pourquoi": "Écrite après l'attentat de Warrington, qui tue deux enfants en 1993."
+        },
+        {
+          "artiste": "Nirvana",
+          "titre": "Come as You Are",
+          "annee": 1991,
+          "spotify_id": "4P5KoWXOxwuobLmHXLMobV",
+          "pourquoi": "Un riff, un tube et une querelle de ressemblance."
+        }
+      ],
+      "echos": [
+        "dissuasion",
+        "friction",
+        "dilemme_securite"
+      ]
+    },
+    {
+      "id": "technique_autonome",
+      "titre": "La technique autonome",
+      "famille": "philosophie",
+      "paradoxe": "L'outil créé pour servir finit par imposer ses propres fins.",
+      "concepts": [
+        {
+          "nom": "Système technicien",
+          "definition": "La technique s'accroît par elle-même et devient le milieu de l'homme (Jacques Ellul, 1977)."
+        },
+        {
+          "nom": "Liberté intérieure",
+          "definition": "Ce qu'une civilisation des machines menace d'abord (Georges Bernanos, La France contre les robots, 1947)."
+        },
+        {
+          "nom": "Ce qui sauve",
+          "definition": "« Là où croît le péril croît aussi ce qui sauve » (Hölderlin, Patmos)."
+        }
+      ],
+      "questions": [
+        "Quelle technique utilises-tu sans pouvoir t'en passer, et qu'a-t-elle changé à tes fins ?",
+        "Une technique peut-elle être neutre ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "intelligence artificielle",
+          "artificial intelligence",
+          "IA"
+        ],
+        "idee": [
+          "Jacques Ellul",
+          "technique"
+        ],
+        "culture": [
+          "Bernanos",
+          "Hölderlin"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Herbie Hancock",
+          "titre": "Rockit",
+          "annee": 1983,
+          "spotify_id": "2nWHzbBWBOePUvAImQv2So",
+          "pourquoi": "Un pianiste de jazz associé aux platines de Grand Mixer D.ST."
+        },
+        {
+          "artiste": "Supertramp",
+          "titre": "The Logical Song",
+          "annee": 1979,
+          "spotify_id": "7dwwHfhF2FKhnKHF5QcRkn",
+          "pourquoi": "L'éducation apprend à fonctionner, pas à savoir qui l'on est."
+        },
+        {
+          "artiste": "Genesis",
+          "titre": "Turn It On Again",
+          "annee": 1980,
+          "spotify_id": "375ok6gZSaXL0hg5BVtZLa",
+          "pourquoi": "Un homme qui ne fait plus que regarder la télévision."
+        },
+        {
+          "artiste": "Fleetwood Mac",
+          "titre": "Everywhere",
+          "annee": 1987,
+          "spotify_id": "1prZ0pr6XoRCxcrC3MCL0M",
+          "pourquoi": "Une introduction née de guitares enregistrées à demi-vitesse."
+        }
+      ],
+      "echos": [
+        "effet_rebond",
+        "liberte_securite",
+        "exponentielle"
+      ]
+    },
+    {
+      "id": "effet_rebond",
+      "titre": "Effet rebond",
+      "famille": "science",
+      "paradoxe": "Rendre l'usage d'une ressource plus efficace peut en augmenter la consommation totale.",
+      "concepts": [
+        {
+          "nom": "Paradoxe de Jevons",
+          "definition": "Les machines à vapeur plus sobres ont accru la consommation de charbon (William Stanley Jevons, The Coal Question, 1865)."
+        },
+        {
+          "nom": "Calcul comme ressource",
+          "definition": "La puissance de calcul est devenue une ressource stratégique de l'intelligence artificielle."
+        },
+        {
+          "nom": "Sobriété",
+          "definition": "Sans régulation de la demande, le gain d'efficacité se dissipe."
+        }
+      ],
+      "questions": [
+        "Quel gain d'efficacité récent t'a fait consommer davantage ?",
+        "Les centres de données plus sobres réduiront-ils la consommation d'énergie ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "data centers",
+          "énergie",
+          "centres de données"
+        ],
+        "idee": [
+          "Jevons",
+          "effet rebond"
+        ],
+        "culture": [
+          "Zola",
+          "Germinal"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Dire Straits",
+          "titre": "Money for Nothing",
+          "annee": 1985,
+          "spotify_id": "4yqtwO7MQIIXqoiRBPHAgR",
+          "pourquoi": "Une critique de MTV qui triomphe grâce à MTV."
+        },
+        {
+          "artiste": "Chubby Checker",
+          "titre": "Let's Twist Again",
+          "annee": 1961,
+          "spotify_id": "3xVgbGoQO85m2B54BqfbS3",
+          "pourquoi": "La mode crée la demande avant la chanson."
+        },
+        {
+          "artiste": "Ace of Base",
+          "titre": "Beautiful Life",
+          "annee": 1995,
+          "spotify_id": "3VYZJcf50KPCwOl0lTopYp",
+          "pourquoi": "Un succès en appelle un autre : « The Sign » pousse le suivant."
+        },
+        {
+          "artiste": "James Brown",
+          "titre": "Living in America",
+          "annee": 1985,
+          "spotify_id": "0T1OrvV6bOQVL2vSQiDn6W",
+          "pourquoi": "Un film relance une carrière."
+        }
+      ],
+      "echos": [
+        "mesure_cible",
+        "exponentielle",
+        "technique_autonome"
+      ]
+    },
+    {
+      "id": "mesure_cible",
+      "titre": "Quand la mesure devient la cible",
+      "famille": "science",
+      "paradoxe": "Un indicateur cesse d'être fiable dès qu'on le poursuit pour lui-même.",
+      "concepts": [
+        {
+          "nom": "Loi de Goodhart",
+          "definition": "Une mesure qui devient un objectif cesse d'être une bonne mesure (Charles Goodhart, 1975 ; formulation de Marilyn Strathern, 1997)."
+        },
+        {
+          "nom": "Effet Matthieu",
+          "definition": "La reconnaissance va à ceux qui en ont déjà : l'avantage est cumulatif (Robert Merton, 1968)."
+        },
+        {
+          "nom": "Effet Matilda",
+          "definition": "Le travail des chercheuses est attribué à d'autres (Margaret Rossiter, 1993)."
+        }
+      ],
+      "questions": [
+        "Quel indicateur de ta course mesures-tu au point d'oublier ce qu'il mesure ?",
+        "Comment piloter sans indicateur, et avec trop d'indicateurs ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "indicateurs",
+          "classement",
+          "statistiques"
+        ],
+        "idee": [
+          "loi de Goodhart",
+          "mesure"
+        ],
+        "culture": [
+          "bureaucratie",
+          "Kafka"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Alphaville",
+          "titre": "Big in Japan",
+          "annee": 1984,
+          "spotify_id": "0vhiNmipJww34WljKnzONH",
+          "pourquoi": "Un titre accrocheur sur un sujet sombre : la gare du Zoo de Berlin."
+        },
+        {
+          "artiste": "Shocking Blue",
+          "titre": "Venus",
+          "annee": 1969,
+          "spotify_id": "0Z3xhSOhrawLV81YdiDiiJ",
+          "pourquoi": "Une faute de frappe chantée devient la signature."
+        },
+        {
+          "artiste": "Wham!",
+          "titre": "Last Christmas",
+          "annee": 1984,
+          "spotify_id": "2FRnf9qhLbvw8fu4IBXx78",
+          "pourquoi": "Numéro deux en 1984, numéro un seulement en 2021."
+        },
+        {
+          "artiste": "Édith Piaf",
+          "titre": "La Vie en rose",
+          "annee": 1947,
+          "spotify_id": "6RKuyWarJu8SMrflntmyXx",
+          "pourquoi": "Jugée trop faible par l'entourage, elle devient la signature de Piaf."
+        }
+      ],
+      "echos": [
+        "effet_rebond",
+        "memoire_oubli",
+        "friction"
+      ]
+    },
+    {
+      "id": "exponentielle",
+      "titre": "L'écart exponentiel",
+      "famille": "technologie",
+      "paradoxe": "La technologie progresse plus vite que les institutions chargées de l'encadrer.",
+      "concepts": [
+        {
+          "nom": "Écart exponentiel",
+          "definition": "Les technologies croissent de façon exponentielle, les institutions de façon linéaire (Azeem Azhar, Exponential, 2021)."
+        },
+        {
+          "nom": "Paradoxe de Moravec",
+          "definition": "Ce qui est simple pour l'humain est difficile pour la machine, et inversement (Hans Moravec, 1988)."
+        },
+        {
+          "nom": "Loi de Wright",
+          "definition": "Le coût unitaire baisse d'un pourcentage constant à chaque doublement de la production cumulée (Theodore Wright, 1936)."
+        }
+      ],
+      "questions": [
+        "Quelle institution que tu connais court derrière une technologie ?",
+        "Qu'est-ce qui est facile pour toi et encore difficile pour une machine ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "IA",
+          "semi-conducteurs",
+          "AI"
+        ],
+        "idee": [
+          "exponentiel",
+          "progrès technique"
+        ],
+        "culture": [
+          "science-fiction",
+          "Asimov"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Miki Matsubara",
+          "titre": "Mayonaka no Door / Stay With Me",
+          "annee": 1979,
+          "spotify_id": "2BHj31ufdEqVK5CkYDp9mA",
+          "pourquoi": "Single de 1979 redécouvert quarante ans plus tard grâce au streaming."
+        },
+        {
+          "artiste": "Michael Jackson",
+          "titre": "Thriller",
+          "annee": 1982,
+          "spotify_id": "2LlQb7Uoj1kKyGhlkBf9aC",
+          "pourquoi": "Le clip devient un court métrage de cinéma."
+        },
+        {
+          "artiste": "Duran Duran",
+          "titre": "The Reflex",
+          "annee": 1984,
+          "spotify_id": "3gsIAou7LjiL3ayF9dR46V",
+          "pourquoi": "Un remix de Nile Rodgers en fait un numéro un."
+        },
+        {
+          "artiste": "The Ronettes",
+          "titre": "Be My Baby",
+          "annee": 1963,
+          "spotify_id": "2IytVPoVVF0yKvaFDouXgj",
+          "pourquoi": "Un premier 45-tours fixe le « Mur de son »."
+        }
+      ],
+      "echos": [
+        "technique_autonome",
+        "dual_use",
+        "effet_rebond"
+      ]
+    },
+    {
+      "id": "dual_use",
+      "titre": "Le double usage",
+      "famille": "technologie",
+      "paradoxe": "Le même satellite qui secourt peut cibler ; la frontière entre civil et militaire passe à l'intérieur des objets.",
+      "concepts": [
+        {
+          "nom": "Technologie duale",
+          "definition": "Technologie utilisable à des fins civiles et militaires."
+        },
+        {
+          "nom": "Porosité des circuits",
+          "definition": "Données, savoirs et industriels passent d'un monde à l'autre."
+        },
+        {
+          "nom": "Décalage innovation-gouvernance",
+          "definition": "Les règles arrivent après les usages."
+        }
+      ],
+      "questions": [
+        "Quel objet de ton quotidien a une vie militaire ?",
+        "Peut-on contrôler une technologie dont l'usage civil est indispensable ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "satellites",
+          "espace",
+          "space"
+        ],
+        "idee": [
+          "double usage",
+          "dual use"
+        ],
+        "culture": [
+          "Jules Verne",
+          "Prométhée"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Ennio Morricone",
+          "titre": "Le vent, le cri",
+          "annee": 1981,
+          "spotify_id": "26BoDP4s4KinUUopv81FG6",
+          "pourquoi": "Le thème le plus connu du film n'a pas été composé pour lui."
+        },
+        {
+          "artiste": "Rod Stewart",
+          "titre": "Sailing",
+          "annee": 1975,
+          "spotify_id": "1S9ZMuFYoqBWt3OoFODNCm",
+          "pourquoi": "Un succès bâti sur un contresens : le marin plutôt que l'intention spirituelle."
+        },
+        {
+          "artiste": "Boney M.",
+          "titre": "Rivers of Babylon",
+          "annee": 1978,
+          "spotify_id": "78His8pbKjbDQF7aX5asgv",
+          "pourquoi": "Un psaume d'exil devient un refrain de dancing."
+        },
+        {
+          "artiste": "Michel Fugain et le Big Bazar",
+          "titre": "Fais comme l'oiseau",
+          "annee": 1972,
+          "spotify_id": "3ikzMCpjCvVVH771CgDWjW",
+          "pourquoi": "La musique de « Você abusou », un texte neuf : une autre chanson."
+        }
+      ],
+      "echos": [
+        "exponentielle",
+        "systeme_ennemi",
+        "espace"
+      ]
+    },
+    {
+      "id": "liberte_securite",
+      "titre": "Liberté et sécurité",
+      "famille": "philosophie",
+      "paradoxe": "Une société parfaitement stable peut supprimer ce qui la rend humaine.",
+      "concepts": [
+        {
+          "nom": "Conditionnement",
+          "definition": "Façonner les désirs plutôt que contraindre les actes (Aldous Huxley, Le Meilleur des mondes, 1932)."
+        },
+        {
+          "nom": "Stabilité contre individualité",
+          "definition": "L'ordre parfait se paie de la singularité des personnes."
+        },
+        {
+          "nom": "Fenêtre d'Overton",
+          "definition": "L'éventail des idées jugées acceptables, qui se déplace (Joseph Overton)."
+        }
+      ],
+      "questions": [
+        "Quelle liberté céderais-tu pour plus de sécurité, et laquelle jamais ?",
+        "Une contrainte qu'on désire est-elle encore une contrainte ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "surveillance",
+          "libertés",
+          "privacy"
+        ],
+        "idee": [
+          "liberté",
+          "sécurité"
+        ],
+        "culture": [
+          "Huxley",
+          "Orwell"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "The Alan Parsons Project",
+          "titre": "Eye in the Sky",
+          "annee": 1982,
+          "spotify_id": "2sIbHjfJ3nbMXNz4w03fWv",
+          "pourquoi": "Née d'une réflexion sur la surveillance."
+        },
+        {
+          "artiste": "Alpha Blondy",
+          "titre": "Brigadier Sabari",
+          "annee": 1982,
+          "spotify_id": "6SjpABnKaOmgvAgjXe98e0",
+          "pourquoi": "Une rafle policière nocturne à Abidjan, chantée en dioula."
+        },
+        {
+          "artiste": "John Lennon",
+          "titre": "Imagine",
+          "annee": 1971,
+          "spotify_id": "7pKfPomDEeI4TPT6EOYjn9",
+          "pourquoi": "Une idée dite à l'impératif : l'auditeur fait le travail."
+        },
+        {
+          "artiste": "Bronski Beat",
+          "titre": "Smalltown Boy",
+          "annee": 1984,
+          "spotify_id": "0FrCX7P2C2hcRTcuhjEvK4",
+          "pourquoi": "Le départ d'un jeune homme rejeté par sa ville."
+        }
+      ],
+      "echos": [
+        "technique_autonome",
+        "dilemme_securite",
+        "territoire"
+      ]
+    },
+    {
+      "id": "territoire",
+      "titre": "Le retour du territoire",
+      "famille": "strategie",
+      "paradoxe": "Le monde des flux redécouvre la frontière.",
+      "concepts": [
+        {
+          "nom": "Fin des territoires",
+          "definition": "Thèse d'un effacement du territoire par les réseaux et les flux (Bertrand Badie, 1995)."
+        },
+        {
+          "nom": "Persistance du territoire",
+          "definition": "Les États reviennent au sol, aux ressources et aux frontières (Olivier Zajec)."
+        },
+        {
+          "nom": "Complexes régionaux de sécurité",
+          "definition": "Les menaces voyagent mieux à courte distance : la sécurité se joue par régions (Barry Buzan et Ole Wæver, 2003)."
+        }
+      ],
+      "questions": [
+        "Quelle frontière est réapparue dans ta vie depuis dix ans ?",
+        "Les réseaux effacent-ils les frontières ou les déplacent-ils ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "frontière",
+          "géopolitique",
+          "Arctique"
+        ],
+        "idee": [
+          "géopolitique",
+          "territoire"
+        ],
+        "culture": [
+          "Julien Gracq",
+          "Le Rivage des Syrtes"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Gilles Vigneault",
+          "titre": "Il me reste un pays",
+          "annee": 1973,
+          "spotify_id": "4HsnIDNuQUV72bdckEyqWD",
+          "pourquoi": "Le thème du pays, de « Mon pays » à « Gens du pays »."
+        },
+        {
+          "artiste": "America",
+          "titre": "A Horse with No Name",
+          "annee": 1971,
+          "spotify_id": "54eZmuggBFJbV7k248bTTt",
+          "pourquoi": "Le désert américain peint depuis un jour de pluie anglais."
+        },
+        {
+          "artiste": "James Taylor",
+          "titre": "Carolina in My Mind",
+          "annee": 1968,
+          "spotify_id": "5WOLghNew2YKZO96gYoM7p",
+          "pourquoi": "La Caroline chantée depuis Londres : l'éloignement aiguise le lieu."
+        },
+        {
+          "artiste": "Johann Strauss I",
+          "titre": "Marche de Radetzky, op. 228",
+          "annee": 1848,
+          "spotify_id": "2mIJmg3piTLfehwXDGZXAu",
+          "pourquoi": "Créée en 1848 pour la victoire de Custoza, devenue rituel du 1er janvier."
+        }
+      ],
+      "echos": [
+        "dilemme_securite",
+        "liberte_securite",
+        "espace"
+      ]
+    },
+    {
+      "id": "memoire_oubli",
+      "titre": "Oublier pour apprendre",
+      "famille": "science",
+      "paradoxe": "On retient mieux ce qu'on a failli oublier.",
+      "concepts": [
+        {
+          "nom": "Courbe de l'oubli",
+          "definition": "La rétention décroît vite puis ralentit (Hermann Ebbinghaus, 1885)."
+        },
+        {
+          "nom": "Effet d'espacement",
+          "definition": "Des révisions espacées retiennent mieux que des révisions groupées."
+        },
+        {
+          "nom": "Pratique de récupération",
+          "definition": "Se tester fixe davantage que relire (Henry Roediger et Jeffrey Karpicke, 2006)."
+        }
+      ],
+      "questions": [
+        "Sans regarder : quels sont les trois concepts de ta dernière course ?",
+        "Que faudrait-il oublier pour mieux apprendre ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "cerveau",
+          "neurosciences",
+          "memory"
+        ],
+        "idee": [
+          "mémoire",
+          "oubli"
+        ],
+        "culture": [
+          "Proust",
+          "madeleine"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Johann Pachelbel",
+          "titre": "Canon en ré majeur, P 37",
+          "annee": 1694,
+          "spotify_id": "2zcrEaLaOlUMhHeMVndG9A",
+          "pourquoi": "Oublié pendant des siècles, omniprésent après un enregistrement de 1968."
+        },
+        {
+          "artiste": "Johann Sebastian Bach",
+          "titre": "Prélude de la Suite pour violoncelle no 1, BWV 1007",
+          "annee": 1720,
+          "spotify_id": "7fbj3RKjwivW6sDcnLdh5p",
+          "pourquoi": "Peu jouée pendant deux siècles, revenue grâce à Pablo Casals."
+        },
+        {
+          "artiste": "Piotr Ilitch Tchaïkovski",
+          "titre": "Le Lac des cygnes",
+          "annee": 1877,
+          "spotify_id": "2xizRhme7pYeITbH1NLLGt",
+          "pourquoi": "Échec en 1877, puis l'un des ballets les plus joués."
+        },
+        {
+          "artiste": "Maurice Ravel",
+          "titre": "Boléro",
+          "annee": 1928,
+          "spotify_id": "4CVw6T9yjQ8vWvvDJxOxiP",
+          "pourquoi": "Deux mélodies répétées sans développement : la variation passe au timbre."
+        }
+      ],
+      "echos": [
+        "mesure_cible",
+        "roseau_pensant",
+        "effet_rebond"
+      ]
+    },
+    {
+      "id": "roseau_pensant",
+      "titre": "Grandeur et misère",
+      "famille": "philosophie",
+      "paradoxe": "Le divertissement qui nous détourne de nous-mêmes est aussi ce qui nous rend la vie supportable.",
+      "concepts": [
+        {
+          "nom": "Divertissement",
+          "definition": "Ce qui détourne l'homme de penser à sa condition (Pascal, Pensées)."
+        },
+        {
+          "nom": "Roseau pensant",
+          "definition": "L'homme est fragile, mais il sait qu'il meurt : sa grandeur est de penser (Pascal)."
+        },
+        {
+          "nom": "Pari",
+          "definition": "Décider sous incertitude en pesant les gains et les pertes infinis (Pascal)."
+        }
+      ],
+      "questions": [
+        "Cette course est-elle un divertissement au sens de Pascal ?",
+        "Sur quel pari, au sens de Pascal, repose une de tes décisions récentes ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "sciences",
+          "découverte",
+          "science"
+        ],
+        "idee": [
+          "Pascal",
+          "Pensées"
+        ],
+        "culture": [
+          "Pascal",
+          "Montaigne"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Erik Satie",
+          "titre": "Gymnopédie n° 1",
+          "annee": 1888,
+          "spotify_id": "5NGtFXVpXSvwunEIGeviY3",
+          "pourquoi": "Pièce de cabaret peu remarquée en 1888, orchestrée par Debussy."
+        },
+        {
+          "artiste": "Johann Sebastian Bach",
+          "titre": "Erbarme dich, mein Gott",
+          "annee": 1727,
+          "spotify_id": "1egsdLgnk37TMTIugIMo7S",
+          "pourquoi": "Le remords de Pierre devenu prière que chacun peut chanter."
+        },
+        {
+          "artiste": "Franz Schubert",
+          "titre": "Ellens dritter Gesang (Ave Maria), D. 839",
+          "annee": 1825,
+          "spotify_id": "4TkZtu3l7WlrHRP2IDLFzV",
+          "pourquoi": "La prière d'un personnage de Walter Scott devenue prière d'église."
+        },
+        {
+          "artiste": "Jacques Brel",
+          "titre": "Quand on n'a que l'amour",
+          "annee": 1956,
+          "spotify_id": "7s1ESEBrRX9TUavF59IR0l",
+          "pourquoi": "Le public entend l'amour là où l'auteur visait la guerre."
+        }
+      ],
+      "echos": [
+        "memoire_oubli",
+        "technique_autonome",
+        "liberte_securite"
+      ]
+    },
+    {
+      "id": "espace",
+      "titre": "L'espace, bien commun disputé",
+      "famille": "technologie",
+      "paradoxe": "Le milieu le plus partagé devient l'un des plus militarisés.",
+      "concepts": [
+        {
+          "nom": "Constellations",
+          "definition": "Des milliers de petits satellites remplacent quelques gros : la masse change la résilience."
+        },
+        {
+          "nom": "Syndrome de Kessler",
+          "definition": "Une collision crée des débris qui en provoquent d'autres, jusqu'à rendre une orbite inutilisable (Donald Kessler, 1978)."
+        },
+        {
+          "nom": "Duopole",
+          "definition": "États-Unis et Chine dominent l'accès à l'espace ; l'Europe cherche sa place."
+        }
+      ],
+      "questions": [
+        "Un bien commun peut-il être défendu sans être militarisé ?",
+        "Que perdrait ta journée si l'orbite basse devenait inutilisable ?"
+      ],
+      "mots_cles": {
+        "actualite": [
+          "spatial",
+          "satellites",
+          "space"
+        ],
+        "idee": [
+          "espace",
+          "astronomie"
+        ],
+        "culture": [
+          "Saint-Exupéry",
+          "Thomas Pesquet"
+        ]
+      },
+      "musique": [
+        {
+          "artiste": "Foreigner",
+          "titre": "Starrider",
+          "annee": 1977,
+          "spotify_id": "7Kd39FdvG56h2Nz2I9aY3E",
+          "pourquoi": "Un des rares titres chantés par le guitariste Mick Jones."
+        },
+        {
+          "artiste": "Stan Jones",
+          "titre": "(Ghost) Riders in the Sky",
+          "annee": 1948,
+          "spotify_id": "3I1vEQhGwRK7URrTq4BqNl",
+          "pourquoi": "Un mythe ancien, la Chasse sauvage, devient un western."
+        },
+        {
+          "artiste": "Vangelis",
+          "titre": "Conquest of Paradise",
+          "annee": 1992,
+          "spotify_id": "3ILbyhVQZIN4mnzMi32hDO",
+          "pourquoi": "Thème de 1492, peu vendu en 1992, triomphe en 1995."
+        },
+        {
+          "artiste": "Charlélie Couture",
+          "titre": "Comme un avion sans ailes",
+          "annee": 1981,
+          "spotify_id": "1Jt1BcQ4LvcWFPCaWXpfTT",
+          "pourquoi": "Le tube de Poèmes rock, enregistré à New York."
+        }
+      ],
+      "echos": [
+        "dual_use",
+        "dissuasion",
+        "territoire"
+      ]
+    }
+  ]
+}

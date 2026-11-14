@@ -1,0 +1,16 @@
+{
+  "name": "Playlist course",
+  "short_name": "Course",
+  "description": "Une course, une playlist Spotify d’une heure qui fait réfléchir.",
+  "lang": "fr",
+  "start_url": "./#course",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "icons/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
